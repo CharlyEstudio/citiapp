@@ -1,5 +1,6 @@
 import 'package:citiapp/utils/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class LoginContent extends StatelessWidget {
   const LoginContent({super.key});
@@ -85,10 +86,11 @@ class LoginContent extends StatelessWidget {
                         color: MyColors.white)),
                 Container(
                   alignment: Alignment.centerRight,
-                  child: Image.asset(
-                    "assets/img/car_white.png",
-                    width: 150.0,
-                    height: 150.0,
+                  child: Lottie.asset(
+                    'assets/lotties/search2.json',
+                    width: 200,
+                    height: 200,
+                    fit: BoxFit.fill,
                   ),
                 ),
                 Text("Inicia Sesión",
@@ -159,7 +161,6 @@ class LoginContent extends StatelessWidget {
                 Container(
                   height: 45.0,
                   width: MediaQuery.of(context).size.width,
-                  // alignment: Alignment.center,
                   margin: const EdgeInsets.only(
                       left: 20.0, right: 20.0, bottom: 20.0),
                   child: ElevatedButton(
