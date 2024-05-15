@@ -16,9 +16,9 @@ Map<int, Color> color = {
 class MyColors {
   static Color white = const Color(0xFFFFFFFF);
   static Color gray = const Color.fromARGB(255, 211, 209, 209);
-  static Color grayLigth = const Color.fromARGB(255, 239, 238, 238);
+  static Color grayLight = const Color.fromARGB(255, 239, 238, 238);
   // static Color whiteOpacity = const Color.fromRGBO(255, 255, 255, 0.2);
-  static Color primaryColor = const Color.fromARGB(255, 22, 139, 189);
+  static Color primaryColor = const Color.fromARGB(255, 146, 15, 122);
   // static Color primaryOpacityColor = const Color.fromRGBO(0, 0, 0, 0.4);
   // static Color primaryOpacityColorDark = const Color.fromRGBO(194, 28, 56, 0.8);
   // static Color primaryColorDark = const Color(0xFFA7001C);
@@ -27,11 +27,11 @@ class MyColors {
 
   // Grandiants
   static List<Color> gradiantPrimary = <Color>[
-    const Color.fromARGB(255, 14, 29, 166),
-    const Color.fromARGB(255, 30, 112, 227),
+    const Color.fromARGB(255, 200, 3, 171),
+    const Color.fromARGB(255, 125, 5, 125),
   ];
   static List<Color> gradiantSecondary = <Color>[
-    const Color.fromARGB(255, 12, 38, 145),
-    const Color.fromARGB(255, 34, 156, 249),
+    const Color.fromARGB(255, 146, 15, 122),
+    const Color.fromARGB(255, 105, 5, 105),
   ];
 }
