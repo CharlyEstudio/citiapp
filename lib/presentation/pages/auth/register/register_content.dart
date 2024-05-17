@@ -1,5 +1,6 @@
 import 'package:citiapp/presentation/widgets/custom_button.dart';
 import 'package:citiapp/presentation/widgets/custom_textfield.dart';
+import 'package:citiapp/presentation/widgets/separator.dart';
 import 'package:citiapp/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
@@ -47,18 +48,31 @@ class RegisterContent extends StatelessWidget {
                   fit: BoxFit.fill,
                 ),
               ),
-              CustomTextfield(text: "Nombre(s)", icon: Icons.person),
-              CustomTextfield(text: "Apellido(s)", icon: Icons.person),
-              CustomTextfield(text: "Correo", icon: Icons.email),
-              CustomTextfield(text: "Contraseña", icon: Icons.lock),
+              CustomTextfield(
+                text: "Nombre(s)",
+                icon: Icons.person,
+              ),
+              CustomTextfield(
+                text: "Apellido(s)",
+                icon: Icons.person,
+              ),
+              CustomTextfield(
+                text: "Correo",
+                icon: Icons.email,
+              ),
+              CustomTextfield(
+                text: "Contraseña",
+                icon: Icons.lock,
+              ),
               const SizedBox(
-                height: 120.0,
+                height: 100.0,
               ),
               CustomButton(
                 text: "Registrarse",
                 color: MyColors.white,
                 textColor: MyColors.primaryColor,
               ),
+              separator(),
               const SizedBox(
                 height: 15.0,
               ),
